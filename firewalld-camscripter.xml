@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>CamScripter</short>
+  <description>The CamScripter App is an application running inside the camera on an Axis Camera Application Platform (ACAP) and can automate all CamStreamer applications.</description>
+  <port protocol="tcp" port="52520"/>
+</service>
