@@ -1,0 +1,10 @@
+{
+  "name": "camscripter-container",
+  "version": "1.0.0",
+  "description": "Container image for the CamScripter-raspberry NPM module",
+  "author": "Niels de Vos",
+  "license": "MIT",
+  "dependencies": {
+    "camscripter-raspberry": "1.2.5"
+  }
+}
