@@ -26,3 +26,13 @@ $ podman run --platform=armhfp --rm --publish=52520:52520 ghcr.io/nixpanic/camsc
 Once the container image is running, port 52520 on the local system can be
 accessed to use the CamScripter service. Point a browser to
 [`http://localhost:52520`](http://localhost:52520).
+
+## Firewall
+
+Copy `firewalld-camscripter.xml` to `/etc/firewalld/services/camscripter.xml`
+on the system where the container is going to run. After that, the following
+command will open up port tcp/52520 on the firewall:
+
+```shell
+firewall-cmd --add-service=camscripter --permanent
+```
