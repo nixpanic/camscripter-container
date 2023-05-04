@@ -2,7 +2,7 @@ FROM quay.io/fedora/fedora:latest
 
 RUN true \
   && dnf -y install npm \
-  && npm install --global shelljs camscripter-raspberry \
+  && npm install --global camscripter-raspberry \
   && camscripter-unregister \
   && true
 
