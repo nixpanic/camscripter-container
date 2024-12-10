@@ -5,6 +5,6 @@
   "author": "Niels de Vos",
   "license": "MIT",
   "dependencies": {
-    "camscripter-raspberry": "1.5.2"
+    "camscripter-raspberry": "1.5.3"
   }
 }
